@@ -12,6 +12,13 @@ Some of the optimizing points <br>
 5) If I had more time to complete I would do the following optimizations:<br>
    a) I will create an index on the most queried parameter (in the current case one of them will be store_id)<br>
    b) Since the number of the rows in store_status is quite huge I could have implemented sharding to query from db in a much faster way.<br>
-   c) I can use lock/mutex/semaphore while accessing the database to prevent dirty read, phantom read, and non-repeatable read problems.<br>
+   c) I can use lock/mutex/semaphore while accessing the database to prevent dirty read, phantom read, and non-repeatable read problems.<be>
+
+
+Demonstration Video Link -> https://drive.google.com/file/d/1W3ei1iSisdlttHW5KJk5XlFts3Fq3Mc5/view?usp=sharing
+
+1st output CSV Data Google Drive link -> https://drive.google.com/file/d/1-o8Ix7Zkm6rXcsxao0dFnXa5QuHoDTNe/view?usp=sharing
+
+2nd output CSV Data Google Drive link -> https://drive.google.com/file/d/1-TW717IUWTr6csofBm0lINqDlv3zMnA0/view?usp=sharing
 
 
