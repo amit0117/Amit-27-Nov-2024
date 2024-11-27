@@ -1,10 +1,10 @@
-how to run on the local machine
-add all three CSV Files to the data folder
--> npm install
--> npm run preStart
--> npm run start
+how to run on the local machine <br>
+add all three CSV Files to the data folder <br>
+-> npm install <br>
+-> npm run preStart <br>
+-> npm run start <br>
 
-Some of the optimizing point
+Some of the optimizing point <br>
 1) I have used redish for chaching the status and file for a report which will save time instead of making a database query.
 2) I have also implemented Redis pub/sub to handle the report creation asynchronously(I could have used RabbitMQ, but for the sake of simplicity, I have implemented Redis pub/sub).
 3) I have also used connection pooling for database connections, which saves some time instead of making a database connection for each query.
