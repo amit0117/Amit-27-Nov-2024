@@ -1,0 +1,29 @@
+{
+  "name": "loop_backend_assesment",
+  "version": "1.0.0",
+  "description": "this is a assesment task for backend developer role at loop",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "preStart": "node init.js",
+    "test": "node test",
+    "start": "nodemon index.js"
+  },
+  "author": "Amit Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
+    "pg": "^8.13.1",
+    "redis": "^4.7.0",
+    "uuid": "^11.0.3",
+    "zoneinfo": "^0.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
